@@ -1,0 +1,11 @@
+﻿  os05_02.cpp
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(82,39): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(82,39): message : рекомендуется использовать "%lld" в строке форматирования
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(82,39): message : рекомендуется использовать "%I64d" в строке форматирования
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(83,120): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(88,43): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(88,43): message : рекомендуется использовать "%lld" в строке форматирования
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(88,43): message : рекомендуется использовать "%I64d" в строке форматирования
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(91,124): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Users\user\Documents\os\5\os05_02\os05_02\os05_02.cpp(61,36): warning C4101: mask: неиспользованная локальная переменная
+  os05_02.vcxproj -> C:\Users\user\Documents\os\5\os05_02\Debug\os05_02.exe
