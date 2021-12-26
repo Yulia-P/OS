@@ -1,0 +1,3 @@
+D:\5sem\OSASP\Labs\7\os07_02\Debug\os07_02.exe
+E:\1Uni\ОСИСП(Смелов)\Лабораторные\7\os07_02\Debug\os07_02.exe
+E:\1Uni\ОСИСП(Смелов)\Лабораторные\Lab7\7\os07_02\Debug\os07_02.exe
