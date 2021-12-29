@@ -1,0 +1,5 @@
+﻿  OS09_02.cpp
+E:\os\Lab_9\OS09_01\OS09_02\OS09_02.cpp(72,43): warning C4244: аргумент: преобразование "LONGLONG" в "DWORD", возможна потеря данных
+E:\os\Lab_9\OS09_01\OS09_02\OS09_02.cpp(108,24): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+E:\os\Lab_9\OS09_01\OS09_02\OS09_02.cpp(37): warning C4715: printFileTxt: значение возвращается не при всех путях выполнения
+  OS09_02.vcxproj -> E:\os\Lab_9\OS09_01\x64\Debug\OS09_02.exe

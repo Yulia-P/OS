@@ -1,0 +1,6 @@
+﻿  OS09_03.cpp
+E:\os\Lab_9\OS09_01\OS09_03\OS09_03.cpp(59,43): warning C4244: аргумент: преобразование "LONGLONG" в "DWORD", возможна потеря данных
+E:\os\Lab_9\OS09_01\OS09_03\OS09_03.cpp(104,24): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+E:\os\Lab_9\OS09_01\OS09_03\OS09_03.cpp(174,43): warning C4244: аргумент: преобразование "LONGLONG" в "DWORD", возможна потеря данных
+E:\os\Lab_9\OS09_01\OS09_03\OS09_03.cpp(151,11): warning C4101: fileType: неиспользованная локальная переменная
+  OS09_03.vcxproj -> E:\os\Lab_9\OS09_01\x64\Debug\OS09_03.exe
