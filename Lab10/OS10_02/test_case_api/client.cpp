@@ -23,7 +23,7 @@ bool CREATE_TEST()
 	int maxKeyLength = 10;
 	int maxKeyLength2 = 4;
 	int maxPayloadLength = 10;
-	const wchar_t* fileName = L"E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT\\test.ht";
+	const wchar_t* fileName = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_02\\HT\\test.ht";
 	HT::HTHANDLE* HT;
 	try {
 		HT = HT::Create(capacity, snapshotIntervalSec, maxKeyLength, maxPayloadLength, fileName);
@@ -44,7 +44,7 @@ bool INSERT_TEST()
 	int snapshotIntervalSec = 2;
 	int maxKeyLength = 10;
 	int maxPayloadLength = 10;
-	const wchar_t* fileName = L"E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT\\test.ht";
+	const wchar_t* fileName = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_02\\HT\\test.ht";
 	HT::HTHANDLE* HT;
 	try {
 		HT = HT::Open(fileName);
@@ -75,7 +75,7 @@ bool UPDATE_TEST()
 	int snapshotIntervalSec = 2;
 	int maxKeyLength = 10;
 	int maxPayloadLength = 10;
-	const wchar_t* fileName = L"E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT\\test.ht";
+	const wchar_t* fileName = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_02\\HT\\test.ht";
 	HT::HTHANDLE* HT;
 	try {
 		HT = HT::Open(fileName);
@@ -110,7 +110,7 @@ bool DELETE_TEST()
 	int snapshotIntervalSec = 2;
 	int maxKeyLength = 10;
 	int maxPayloadLength = 10;
-	const wchar_t* fileName = L"E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT\\test.ht";
+	const wchar_t* fileName = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_02\\HT\\test.ht";
 	try {
 		HT::HTHANDLE* HT = HT::Open(fileName);
 		if (HT == NULL)

@@ -50,7 +50,7 @@ namespace HT    // HT API
 		Element(const void* key, int keylength, const void* payload, int  payloadlength);    // for Insert
 		Element(Element* oldelement, const void* newpayload, int  newpayloadlength);         // for update
 		void* key;                 // значение ключа 
-		int             keylength;           // рахмер ключа
+		int             keylength;           // размер ключа
 		void* payload;             // данные 
 		int             payloadlength;       // размер данных
 	};

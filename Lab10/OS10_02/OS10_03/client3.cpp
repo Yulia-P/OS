@@ -11,8 +11,8 @@ int main()
 	int maxKeyLength = 10;
 	int maxKeyLength2 = 10;
 	int maxPayloadLength = 10;
-	const wchar_t* fileName  = L"E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT\\lab03-1.ht";
-	const wchar_t* fileName2 = L"E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT\\lab03-2.ht";
+	const wchar_t* fileName  = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_02\\HT\\lab03-1.ht";
+	const wchar_t* fileName2 = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_02\\HT\\lab03-2.ht";
 	try {
 		HT::HTHANDLE* HT  = HT::Create(capacity, snapshotIntervalSec, maxKeyLength, maxPayloadLength, fileName);
 		HT::HTHANDLE* HT2 = HT::Create(capacity2, snapshotIntervalSec, maxKeyLength2, maxPayloadLength, fileName2);

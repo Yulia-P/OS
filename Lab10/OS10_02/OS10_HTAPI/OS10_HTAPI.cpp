@@ -158,9 +158,10 @@ namespace HT {
 
 	BOOL Snap(HTHANDLE* hthandle) {
 		WaitForSingleObject(hthandle->Mutex, INFINITE);
-		if (!FlushViewOfFile(hthandle->Addr, NULL)) {
+		//пишет на диск блок байтов в пределах отображаемого вида файла
+		if (!FlushViewOfFile(hthandle->Addr, NULL)) { //начальный адрес, число байтов в блоке
 			SetErrorMessage(hthandle, "Snapshot error", 15);
-			ReleaseMutex(hthandle->Mutex);
+			ReleaseMutex(hthandle->Mutex); //
 			return FALSE;
 		}
 		std::cout << "-----SNAPSHOT-----" << std::endl;

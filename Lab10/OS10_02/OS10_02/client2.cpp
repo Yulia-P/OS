@@ -3,10 +3,9 @@
 
 void printStr(char* str);
 
-//E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT
 int main()
 {
-	const wchar_t* fileName = L"E:\\1Uni\\1,2 ОСИСП(Смелов)\\Лабораторные\\lab10v2\\HT\\lab02.ht";
+	const wchar_t* fileName = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_02\\HT\\lab02.ht";
 	try {
 		const int capacity = 10;
 		const int snapshotIntervalSec = 2;
@@ -60,6 +59,7 @@ int main()
 		if (!HT::Snap(HT))
 			printStr(HT::GetLastError(HT));
 		std::cout << "-----UPDATE-----" << std::endl;
+
 		//GET AFTER UPDATE
 		if ((el = HT::Get(HT, el1)) == NULL) printStr(HT::GetLastError(HT));
 		else HT::print(el);
@@ -71,6 +71,7 @@ int main()
 		else HT::print(el);
 
 		Sleep(10000);
+
 		//DELETE
 		if (!HT::Delete(HT, el2)) {
 			printStr(HT::GetLastError(HT));
@@ -92,19 +93,7 @@ int main()
 
 
 		HT::Close(HT);
-		//GET AFTER DELETE
-		HT::HTHANDLE* HT2 = HT::Open(fileName);
-		std::cout << "-----GET-----" << std::endl;
-		if ((el = HT::Get(HT, el1)) == NULL) printStr(HT::GetLastError(HT));
-		else HT::print(el);
-
-		if ((el = HT::Get(HT, el2)) == NULL) printStr(HT::GetLastError(HT));
-		else HT::print(el);
-
-		if ((el = HT::Get(HT, el3)) == NULL) printStr(HT::GetLastError(HT));
-		else HT::print(el);
-
-		HT::Close(HT2);
+		
 		delete el1;
 		delete el2;
 		delete el3;

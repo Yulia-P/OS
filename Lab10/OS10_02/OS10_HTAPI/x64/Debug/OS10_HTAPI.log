@@ -1,8 +1,7 @@
-﻿  pch.cpp
-  OS10_HTAPI.cpp
-E:\1Uni\1,2 ОСИСП(Смелов)\Лабораторные\lab10v2\OS10_01\OS10_HTAPI\OS10_HTAPI.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-E:\1Uni\1,2 ОСИСП(Смелов)\Лабораторные\lab10v2\OS10_01\OS10_HTAPI\OS10_HTAPI.cpp(445,94): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-E:\1Uni\1,2 ОСИСП(Смелов)\Лабораторные\lab10v2\OS10_01\OS10_HTAPI\OS10_HTAPI.cpp(449,110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-E:\1Uni\1,2 ОСИСП(Смелов)\Лабораторные\lab10v2\OS10_01\OS10_HTAPI\OS10_HTAPI.cpp(457,110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-E:\1Uni\1,2 ОСИСП(Смелов)\Лабораторные\lab10v2\OS10_01\OS10_HTAPI\OS10_HTAPI.cpp(440): warning C4172: возвращение адреса локальной или временной переменной : mutexName
-  OS10_HTAPI.vcxproj -> E:\1Uni\1,2 ОСИСП(Смелов)\Лабораторные\lab10v2\OS10_01\x64\Debug\OS10_HTAPI.lib
+﻿  OS10_HTAPI.cpp
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_02\OS10_HTAPI\OS10_HTAPI.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_02\OS10_HTAPI\OS10_HTAPI.cpp(446,94): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_02\OS10_HTAPI\OS10_HTAPI.cpp(450,110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_02\OS10_HTAPI\OS10_HTAPI.cpp(458,110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_02\OS10_HTAPI\OS10_HTAPI.cpp(441): warning C4172: возвращение адреса локальной или временной переменной : mutexName
+  OS10_HTAPI.vcxproj -> C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_02\x64\Debug\OS10_HTAPI.lib

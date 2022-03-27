@@ -1,2 +1,7 @@
-﻿  OS10_01.cpp
-  OS10_01.vcxproj -> E:\GitHub\OS\Lab10\OS10_01\Debug\OS10_01.exe
+﻿  HT.cpp
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_01\OS10_01\HT.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_01\OS10_01\HT.cpp(432,21): warning C4018: <: несоответствие типов со знаком и без знака
+  OS10_01.cpp
+  Создание кода...
+C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_01\OS10_01\HT.cpp(440): warning C4172: возвращение адреса локальной или временной переменной : mutexName
+  OS10_01.vcxproj -> C:\Users\37529\Documents\GitHub\OS\Lab10\OS10_01\Debug\OS10_01.exe

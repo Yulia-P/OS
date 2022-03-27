@@ -5,8 +5,10 @@ using namespace HT;
 void printStr(char* str);
 int main()
 {
-	//E:\\GitHub\\OS\\Lab10\\OS10_01
-	const wchar_t* fileName = L"E:\\GitHub\\OS\\Lab10\\OS10_01\\lab1.ht";
+	//2. HT-хранилище (HT): программная система, предназначенная для хранения данных в формате ключ/значение. 
+	//Для хранения данных в HT используется файл на диске и образ этого файла в оперативной памяти. Операции с данными (Insert, Delete, Update, Get) выполняются с образом. 
+	//Сохранность данных осуществляется с помощью snapshot- механизма (с заданным периодом асинхронное сохранение образа в файле), snapshot может выполняться  синхронно по команде пользователя.
+	const wchar_t* fileName = L"C:\\Users\\37529\\Documents\\GitHub\\OS\\Lab10\\OS10_01\\lab1.ht";
 	try {
 		int capacity = 10;
 		int snapshotIntervalSec = 3;
